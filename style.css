@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e7f6f2;
+    color: #333;
+}
+.navbar {
+    margin-bottom: 20px;
+    background: rgb(73,52,116);
+    background: linear-gradient(90deg, rgba(73,52,116,0.9360337885154062) 6%, rgba(65,94,199,0.6979385504201681) 50%, rgba(67,163,126,0.6783307072829132) 78%, rgba(173,223,193,0.8435968137254902) 100%);
+}
+.card {
+    margin: 15px 0;
+}
+footer {
+    background: #21013d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.nav-item{
+    /* color:linear-gradient(90deg, rgba(154,205,201,0.8435968137254902) 0%, rgba(126,205,194,0.6783307072829132) 35%, rgba(103,99,214,0.6979385504201681) 74%, rgba(101,100,204,0.9360337885154062) 100%); */
+    background: -webkit-linear-gradient(#63ccd4, #9470d8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.disorders{
+    margin-top: 50px;
+}
+
+.disorderdetail{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.menu-btn {
+    /* background-color: #040008; */
+    /* color: rgb(255, 255, 255); */
+    background: -webkit-linear-gradient(#63ccd4, #9470d8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* padding: 16px; */
+    /* font-weight: bolder; */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    padding: 0;
+}
+
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #c2ebdc;
+    min-width: 110px;
+    z-index: 1;
+}
+
+.links,
+.links-hidden {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.links-hidden {
+    display: block;
+}
+.links {
+    display: inline-block;
+}
+
+.links-hidden:hover,
+.links:hover {
+    transform: scale(1.2);
+  
+}
+
+.dropdown-menu:hover .menu-content {
+    display: block;
+}
