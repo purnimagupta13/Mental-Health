@@ -89,3 +89,10 @@ footer {
 .dropdown-menu:hover .menu-content {
     display: block;
 }
+
+button{
+    color: #e7f6f2;
+    background: #462d4d;
+    border-radius: 5px;
+    margin-left: 5vw;
+}
