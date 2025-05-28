@@ -20,12 +20,14 @@ footer {
     margin-top: 20px;
 }
 
-.nav-item{
+/* .nav-item{ */
     /* color:linear-gradient(90deg, rgba(154,205,201,0.8435968137254902) 0%, rgba(126,205,194,0.6783307072829132) 35%, rgba(103,99,214,0.6979385504201681) 74%, rgba(101,100,204,0.9360337885154062) 100%); */
-    background: -webkit-linear-gradient(#63ccd4, #9470d8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+    /* background: -webkit-linear-gradient(#63ccd4, #9470d8); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* background-image: linear-gradient(#63ccd4, #9470d8); */
+
+/* } */
 
 .disorders{
     margin-top: 50px;
@@ -39,9 +41,11 @@ footer {
 .menu-btn {
     /* background-color: #040008; */
     /* color: rgb(255, 255, 255); */
-    background: -webkit-linear-gradient(#63ccd4, #9470d8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* background: -webkit-linear-gradient(#63ccd4, #9470d8); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* background-image: linear-gradient(#63ccd4, #9470d8); */
+
     /* padding: 16px; */
     /* font-weight: bolder; */
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
